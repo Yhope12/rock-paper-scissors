@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #415a77;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align:center;
+    padding: 40px;
+    font-size: 35px;
+    background-color:#1b263b;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 0px 2px 10px black;
+}
+
+#body-text{
+    margin-top: 150px;
+}
+
+#body-text1 p{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -15px;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#body-text2 p{
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#box-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;  
+}
+
+#question-box1{
+    margin-left: 450px;
+}
+
+#question-box2{
+    margin-right: 450px;
+}
+
+#question-box1 p,#question-box2 p{ 
+    text-align: center;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#items-container{
+    margin-top: 60px;
+}
+
+#items{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.emoji{
+    padding: 40px;
+    margin-left: 40px;
+    font-size: 80px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #6d6875;
+    cursor: pointer;
+}
+
+#user-emoji{
+    font-size: 80px;
+    display: none;
+}
+
+#computer-emoji{
+    font-size: 80px;
+    display: none;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 0;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#rock:hover,#paper:hover,#scissors:hover{
+    opacity: 0.7;
+}
